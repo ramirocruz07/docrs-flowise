@@ -1,0 +1,32 @@
+# Python / FastAPI backend
+backend/__pycache__/
+backend/**/*.pyc
+backend/venv/
+backend/.env
+backend/wow.env
+backend/*.db
+backend/docrflowise.db
+backend/docr.db
+
+# Documentation (keep .md files, ignore generated files)
+
+
+# Node / Next.js frontend
+docr-canvas-frontend/node_modules/
+docr-canvas-frontend/.next/
+docr-canvas-frontend/.turbo/
+docr-canvas-frontend/.env.local
+docr-canvas-frontend/.env
+
+# General editor/system files
+.DS_Store
+Thumbs.db
+*.log
+
+# Build artifacts
+*.tsbuildinfo
+dist/
+build/
+.coverage
+coverage/
+
